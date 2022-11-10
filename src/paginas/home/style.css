@@ -1,0 +1,123 @@
+main {
+    padding-top: 70px;
+}
+
+.secao-banner {
+    height: 100vh;
+    background-color: #f9db79;
+    background-image: url("../../../public/assets/banner-home.png");
+    background-repeat: no-repeat;
+    background-size: 600px;
+    background-position: center;
+    position: relative;
+}
+
+.home-image {
+    width: 50%;
+}
+
+.home-info {
+    width: 50%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.align-items {
+    align-items: center;
+}
+
+h1 {
+    color: #fff;
+    font-size: 70px;
+    width: 700px;
+    text-align: center;
+    text-shadow: 2px 2px 1px black;
+}
+
+h2 {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 35px;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.home-info p {
+    text-align: center;
+    width: 70%;
+    font-size: 20px;
+    padding-top: 50px;
+}
+
+.titulo-principal {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        color: #fff;
+        font-size: 60px;
+        text-shadow: 2px 2px 1px black;
+        width: 550px;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+    .over-x {
+        overflow-x: hidden;
+    }
+    
+    h1 {
+        color: #fff;
+        font-size: 40px;
+        text-shadow: 2px 2px 1px black;
+        width: 550px;
+        text-align: center;
+    }
+
+    h2 {
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 30px; 
+        width: 500px;
+    }
+
+    .secao-sobre, .secao-sabores, .secao-eventos {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .home-image {
+        width: 400px;
+    }
+
+    .home-info p {
+        width: 400px;
+        font-size: 18px;
+        padding: 20px 0px;
+    }
+
+    .order0 {
+        order: 0;
+    }
+
+    .order1 {
+        order: 1;
+    }
+}
