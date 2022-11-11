@@ -87,7 +87,7 @@ h3 {
         background-color: #f9db79;
         background-image: url("../../../public/assets/banner-home.png");
         background-repeat: no-repeat;
-        background-size: 600px;
+        background-size: 400px;
         background-position: center;
         position: relative;
     }
@@ -98,7 +98,7 @@ h3 {
     
     .h1-home {
         color: #fff;
-        font-size: 40px; 
+        font-size: 32px; 
         text-shadow: 2px 2px 1px black;
         width: 550px;
         text-align: center;
