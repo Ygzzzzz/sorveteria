@@ -78,13 +78,27 @@ h3 {
 }
 
 @media screen and (max-width: 475px) {
+    main {
+        padding-top: 70px;
+    }
+    
+    .secao-banner {
+        height: 100vh;
+        background-color: #f9db79;
+        background-image: url("../../../public/assets/banner-home.png");
+        background-repeat: no-repeat;
+        background-size: 600px;
+        background-position: center;
+        position: relative;
+    }
+    
     .over-x {
         overflow-x: hidden;
     }
     
     h1 {
         color: #fff;
-        font-size: 40px;
+        font-size: 20px; 
         text-shadow: 2px 2px 1px black;
         width: 550px;
         text-align: center;
