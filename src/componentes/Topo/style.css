@@ -30,7 +30,7 @@ header {
     }
 }
 
-@media screen and (max-width: 475px) {
+@media screen and (max-width: 400px) {
     .topo {
         flex-direction: column;
         height: 150px;

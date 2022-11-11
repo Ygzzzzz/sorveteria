@@ -12,7 +12,7 @@ export default function Home() {
             <main className="over-x">
                 <section className="secao-banner">
                     <div className="titulo-principal">
-                        <h1>Sorvete Artesanal</h1>
+                        <h1 className="h1-nome">Sorvete Artesanal</h1>
                     </div>
                 </section>
 

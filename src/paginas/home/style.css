@@ -33,7 +33,7 @@ main {
     align-items: center;
 }
 
-h1 {
+.h1-home {
     color: #fff;
     font-size: 70px;
     width: 700px;
@@ -96,9 +96,9 @@ h3 {
         overflow-x: hidden;
     }
     
-    h1 {
+    .h1-home {
         color: #fff;
-        font-size: 20px; 
+        font-size: 40px; 
         text-shadow: 2px 2px 1px black;
         width: 550px;
         text-align: center;
