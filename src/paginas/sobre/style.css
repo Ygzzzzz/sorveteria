@@ -104,7 +104,8 @@ main {
     }
 
     .p-sobre {
-        max-width: 370px;
+        max-width: 350px;
+        font-size: 20px;
     }
 
     .img-container {
