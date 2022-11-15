@@ -122,7 +122,7 @@ main {
     }
 
     .p-home {
-        max-width: 400px;
+        width: 400px;
         font-size: 18px;
         padding: 20px 0px;
     }
