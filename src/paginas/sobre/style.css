@@ -98,6 +98,10 @@ main {
         width: 550px;
         text-align: center;
     }
+
+    .h3-sobre {
+        font-size: 18px;
+    }
     
     .over-x {
         overflow-x: hidden;

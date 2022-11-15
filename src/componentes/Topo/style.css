@@ -37,6 +37,7 @@ header {
     }
 
     nav {
+        max-width: 370px;
         border-top: 1px solid black ;
     }
 
