@@ -121,8 +121,8 @@ main {
         width: 400px;
     }
 
-    .home-info p {
-        width: 400px;
+    .p-home {
+        max-width: 350px;
         font-size: 18px;
         padding: 20px 0px;
     }
