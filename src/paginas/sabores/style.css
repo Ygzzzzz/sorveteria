@@ -4,7 +4,7 @@
     background-color: #f9db79;
     background-image: url("../../../public/assets/banner-sabores.jpg");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     background-position: center center;
     position: relative;
 }
@@ -73,4 +73,43 @@
     max-width: 300px;
     width: auto;
     flex: 1;
+}
+
+@media screen and (max-width: 768px) {
+    .h1-sabores {
+        color: #fff;
+        font-size: 60px;
+        text-shadow: 2px 2px 1px black;
+        width: 550px;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    main {
+        padding-top: 70px;
+    }
+
+    .banner-sabores {
+        height: 80vh;
+        background-color: #f9db79;
+        background-image: url("../../../public/assets/banner-sabores.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }
+
+    .h1-sabores {
+        color: #fff;
+        font-size: 35px; 
+        text-shadow: 2px 2px 1px black;
+        width: 550px;
+        text-align: center;
+    }
+    
+    .over-x {
+        overflow-x: hidden;
+    }
 }

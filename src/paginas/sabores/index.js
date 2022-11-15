@@ -7,7 +7,7 @@ export default function Sabores() {
     return (
         <div>
             <Topo />
-            <main>
+            <main className="over-x">
                 <section className="banner-sabores">
                     <div className="titulo-principal">
                         <h1 className="h1-sabores">Nossos Sabores</h1>

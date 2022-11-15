@@ -1,0 +1,119 @@
+main {
+    padding-top: 70px;
+}
+
+.banner-sobre {
+    height: 80vh;
+    background-color: #f9db79;
+    background-image: url("../../../public/assets/banner-sobre.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.h1-sobre {
+    color: #fff;
+    font-size: 70px;
+    width: 700px;
+    text-align: center;
+    text-shadow: 2px 2px 1px black;
+}
+
+.info-sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.h2-sobre {
+    font-weight: bold;
+    font-size: 35px;
+    margin: 10px;
+}
+
+.h3-sobre {
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.p-sobre {
+    width: 1024px;
+    text-align: center;
+    font-size: 18px;
+    margin: 20px;
+}
+
+.img-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.img-sobre {
+    width: 50%;
+    height: 500px;
+}
+
+@media screen and (max-width: 768px) {
+    .h1-sobre {
+        color: #fff;
+        font-size: 60px;
+        text-shadow: 2px 2px 1px black;
+        width: 550px;
+        text-align: center;
+    }
+
+    .p-sobre {
+        max-width: 700px;
+    }
+
+    .img-sobre {
+        width: 50%;
+        height: 350px;
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+    main {
+        padding-top: 70px;
+    }
+
+    .banner-sobre {
+        height: 80vh;
+        background-color: #f9db79;
+        background-image: url("../../../public/assets/banner-sobre.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }
+
+    .h1-sobre {
+        color: #fff;
+        font-size: 35px; 
+        text-shadow: 2px 2px 1px black;
+        width: 550px;
+        text-align: center;
+    }
+    
+    .over-x {
+        overflow-x: hidden;
+    }
+
+    .p-sobre {
+        max-width: 400px;
+    }
+
+    .img-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img-sobre {
+        width: 100%;
+        height: 350px;
+    }
+}
