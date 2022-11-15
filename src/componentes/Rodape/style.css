@@ -30,6 +30,11 @@ footer {
     .logo-footer {
         width: 130px;
     }
+
+    .dados , .footer {
+        color: #fff;
+        font-size: 15px;
+    }
 }
 
 @media screen and (max-width:400px) {
